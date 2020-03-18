@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/bg">
+
+<LinearLayout
+    android:layout_marginTop="20dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:textStyle="bold"
+        android:gravity="bottom"
+        android:id="@+id/btn_identitas"
+        android:layout_width="100dp"
+        android:background="@drawable/masjid"
+        android:layout_height="100dp"
+        android:text="    IDENTITAS \n       MASJID" />
+
+    <Button
+        android:layout_marginLeft="100dp"
+        android:textStyle="bold"
+        android:gravity="bottom"
+        android:background="@drawable/sholat"
+        android:id="@+id/btn_jadwal"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="       JADWAL \n       SHOLAT" />
+
+</LinearLayout>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/btn_marquee"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="MARQUEE" />
+
+<LinearLayout
+    android:layout_marginTop="30dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:gravity="bottom"
+        android:layout_gravity="center"
+        android:background="@drawable/pengumuman"
+        android:id="@+id/btn_pengumuman"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Pengumuman"
+        android:textStyle="bold"/>
+
+    <Button
+        android:textColor="#000000"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:gravity="bottom"
+        android:background="@drawable/ss"
+        android:id="@+id/btn_slide"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="  SLIDE SHOW" />
+
+    <Button
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:gravity="bottom"
+        android:background="@drawable/tagline"
+        android:id="@+id/btn_tagline"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="      TAGLINE \n       MASJID" />
+
+</LinearLayout>
+
+
+</LinearLayout>
+
